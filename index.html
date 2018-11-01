@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Euclids Algorithm</title>
+    <style>
+        body {
+            padding: 50px;
+        }
+        #myCanvas {
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualizing Euclids Algorithm</h1>
+    <p>A:</p>
+    <input id="A" type="text"><br>
+    <p>B:</p>
+    <input id="B" type="text"><br><br>
+    <button onclick="calculate()">Calculate</button><br>
+    <p>Greatest common divisor:</p>
+    <p id="result"></p>
+
+    <canvas id="myCanvas" width=1000 height=800 ></canvas>
+    <script src="euclid.js"></script>
+</body>
+</html>
