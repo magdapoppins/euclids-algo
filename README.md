@@ -4,5 +4,7 @@ Euclids algorithm is an efficient way to compute the greatest common divisor of 
 
 By reversing the steps of the euclidian algorithm the gcd can be expressed as a sum of the two original numbers each multiplied by a positive or negative integer. The fact that the GDC can be expressed in this way is known as Bezout's identity.  
 
-In this project I attempt to vizualise this algorithm on a HTML canvas using plain JS. The JS code doesn't follow the actual recursive algorithm, but plainly increases a counter to find the largest possible sqare into which the are formed by the two parameters can be divided. The GCD is visualized as a red area within the rectangle formed by the two input params.
+In a case that the GCD of two numbers would be 1, the numbers are so-called *coprimes*. This does not mean that they are prime numbers.
+
+In this project I attempt to visualize this algorithm on a HTML canvas using plain JS. The JS code doesn't follow the actual recursive algorithm, but plainly increases a counter to find the largest possible sqare into which the are formed by the two parameters can be divided. The GCD is visualized as a red area within the rectangle formed by the two input params.
 
